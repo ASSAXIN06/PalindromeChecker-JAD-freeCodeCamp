@@ -1,0 +1,26 @@
+:root{
+    --color-1: #FF204E;/* gradient color 1 */
+    --color-2: #A0153E;/* gradient color 2 */
+    --color-3: #5D0E41;/* gradient color 3 */
+    --color-4: #00224D;
+    --font-color: white;/* font-color */
+}
+
+body{
+    background: linear-gradient(
+        45deg,
+        var(--color-1),
+        var(--color-2),
+        var(--color-3),
+        var(--color-4)
+    );
+    height: 100vh;
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+}
